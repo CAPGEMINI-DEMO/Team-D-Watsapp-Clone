@@ -1,0 +1,40 @@
+.login__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+.login {
+    background-color: #fff;
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 17px 50px 0 rgb(0 0 0 / 19%), 0 12px 15px 0 rgb(0 0 0 / 24%);
+    z-index: 100;
+}
+ .login img {
+    width: 100px;
+} 
+
+.login h2 {
+    margin:20px 0px
+}
+
+.login button {
+   background-color: #128c7e;
+   color:#fff;
+   border:0px;
+   padding:10px 20px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   cursor: pointer;
+   margin-top: 20px;
+}
